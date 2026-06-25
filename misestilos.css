@@ -1,0 +1,131 @@
+body {
+    background-image: url('IMÁGENES/fondo.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-color: #06231c;
+}
+
+.navbar-custom {
+    background-color: #f39c12;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
+.banner-naranja-titulo {
+    background-color: #f39c12;
+    padding: 10px 20px;
+    border-radius: 25px;
+    font-size: 1.1rem;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.carrusel-encajado {
+    max-width: 100%;
+    margin: 0 auto;
+    border: 3px solid #f39c12;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.carrusel-encajado .carousel-item img {
+    height: 380px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.dish-card {
+    position: relative;
+    border: none;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+}
+
+.dish-badge {
+    position: absolute;
+    bottom: 90px;
+    right: 9px;
+    background-color: #06231c;
+    color: #f39c12;
+    font-weight: bold;
+    padding: 8px 18px;
+    border-radius: 20px;
+    font-size: 1.2rem; 
+    z-index: 10;
+}
+
+.mapa-interactivo-salon {
+    background-color: rgba(6, 35, 28, 0.85);
+    max-width: 950px;
+    min-height: 500px;
+    border-radius: 12px;
+}
+
+.banner-sidebar, .banner-entrada {
+    background-color: #f39c12;
+    font-weight: bold;
+    border-radius: 4px;
+}
+
+.bar-label {
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    padding: 30px 12px;
+    text-align: center;
+    letter-spacing: 4px;
+    height: 200px;
+}
+
+.bano-label {
+    font-size: 0.8rem;
+    width: 100%;
+}
+
+.banner-entrada {
+    padding: 10px 20px;
+    letter-spacing: 2px;
+}
+
+.mesa-circulo-link {
+    display: inline-block;
+    border-radius: 0; 
+    overflow: visible;
+    border: none;     
+    box-shadow: none;      
+    background-color: transparent; 
+}
+
+.mesa-circulo-link.size-xs img, .mesa-circulo-link.size-xs { width: 55px; height: 55px; }
+.mesa-circulo-link.size-sm img, .mesa-circulo-link.size-sm { width: 75px; height: 75px;}
+.mesa-circulo-link.size-md img, .mesa-circulo-link.size-md { width: 105px; height: 105px;}
+.mesa-circulo-link.size-lg img, .mesa-circulo-link.size-lg { width: 130px; height: 130px;}
+
+.mesa-circulo-link img {
+    display: block;
+    margin: 0 auto;       
+}
+
+.map-placeholder {
+    width: 100%;
+    height: 350px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    border: 2px dashed #f39c12;
+}
+
+.text-success {
+    color: #06231c !important;
+}
+
+.navbar-custom .nav-link, 
+.navbar-custom .navbar-brand {
+    color: #06231c !important;
+}
+
+.text-mesa-info {
+    color: #f39c12 !important;
+}
+
+.navbar-toggler {
+    border-color: #06231c !important;
+}
