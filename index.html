@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicioooo</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="misestilos.css">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-custom sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand d-flex align-items-center text-success fw-bold">
+                <img src="IMÁGENES/isotipo.jpeg" alt="Avatar Logo" style="width:40px;" class="rounded-pill me-2"> 
+                <span>REMI´S</span>
+            </a>
+            <button class="navbar-toggler border-success text-success" type="button" data-bs-toggle="collapse" data-bs-target="#navRestaurante">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navRestaurante">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item"><a class="nav-link active text-success fw-bold" href="index.html">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link text-success fw-bold" href="menu.html">Menú</a></li>
+                    <li class="nav-item"><a class="nav-link text-success fw-bold" href="reservas.html">Reservas</a></li>
+                    <li class="nav-item"><a class="nav-link text-success fw-bold" href="ubicacion.html">Ubicación</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container my-5">
+
+        <div class="row mb-4">
+            <div class="col-12 text-center">
+                <img src="IMÁGENES/logotipo.png" style="max-height: 140px;" >
+            </div>
+        </div>
+
+        <div class="row align-items-center g-4">
+            
+            <div class="col-lg-3 col-md-6 col-sm-12 text-center text-lg-start">
+                <div class="banner-naranja-titulo text-center text-success fw-bold mb-3">¿QUIÉNES SOMOS?</div>
+                <p class="text-white text-justify">
+                    Nacimos de una simple pero poderosa curiosidad: ¿Qué sucede cuando dejas de comer para empezar a explorar? Nuestro restaurante surgió del deseo de romper con lo convencional y crear un espacio donde los sabores no fueran solo ingredientes, sino historias contadas en el paladar.
+                </p>
+            </div>
+
+            <div class="col-lg-6 col-md-12 col-sm-12">
+                <div id="carouselPrincipal" class="carousel slide shadow-lg carrusel-encajado" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselPrincipal" data-bs-slide-to="0" class="active"></button>
+                        <button type="button" data-bs-target="#carouselPrincipal" data-bs-slide-to="1"></button>
+                        <button type="button" data-bs-target="#carouselPrincipal" data-bs-slide-to="2"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="IMÁGENES/restaurante.jpg" class="d-block w-100" alt="Plato 1">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="IMÁGENES/manos.jpg" class="d-block w-100" alt="Plato 2">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="IMÁGENES/chef plato.jpg" class="d-block w-100" alt="Plato 3">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselPrincipal" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselPrincipal" data-bs-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </button>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-12 text-center text-lg-start">
+                <div class="mb-4">
+                    <div class="banner-naranja-titulo text-center text-success fw-bold mb-2">MISIÓN</div>
+                    <p class="text-white text-justify">
+                        Ofrecer una experiencia gastronómica inigualable a través de la exploración de sabores nuevos y vanguardistas.
+                    </p>
+                </div>
+                <div>
+                    <div class="banner-naranja-titulo text-center text-success fw-bold mb-2">VISIÓN</div>
+                    <p class="text-white text-justify">
+                        Convertirnos en el referente principal de la cocina gourmet de autor en la región, siendo reconocidos por nuestra capacidad de reinventar sabores y por la calidad artística de nuestras presentaciones.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
