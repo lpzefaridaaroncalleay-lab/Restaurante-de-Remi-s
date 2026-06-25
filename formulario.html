@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fORMULARIO</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="misestilos.css">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-custom sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand d-flex align-items-center text-success fw-bold" href="index.html">
+                <img src="IMÁGENES/isotipo.jpeg" style="width:40px;" class="rounded-pill me-2"> 
+                <span>REMI´S</span>
+            </a>
+        </div>
+    </nav>
+
+    <div class="container my-5 d-flex justify-content-center">
+        <div class="card p-4 shadow border-0 bg-transparent col-lg-5 col-md-8 col-sm-12">
+            <h3 class="text-center mb-4 fw-bold text-white">Completar Reserva</h3>
+            
+            <form action="index.html" method="GET" onsubmit="alert('¡Reserva registrada con éxito!');">
+                
+                <div class="mb-3">
+                    <label for="selectMesa" class="form-label fw-bold text-white">Selecciona tu Mesa</label>
+                    <select class="form-select bg-white text-dark fw-bold" id="selectMesa" required>
+                        <option value="" disabled selected>Elige una mesa del salón</option>
+                        <option value="1">Mesa 1 (2 personas)</option>
+                        <option value="2">Mesa 2 (2 personas)</option>
+                        <option value="3">Mesa 3 (8 personas)</option>
+                        <option value="4">Mesa 4 (2 personas)</option>
+                        <option value="5">Mesa 5 (6 personas)</option>
+                        <option value="6">Mesa 6 (2 personas)</option>
+                        <option value="7">Mesa 7 (6 personas)</option>
+                        <option value="8">Mesa 8 (4 personas)</option>
+                    </select>
+                </div>
+
+                <div class="mb-3">
+                    <label for="inputNombre" class="form-label fw-bold text-white">Nombre Completo</label>
+                    <input type="text" class="form-control bg-white text-dark" id="inputNombre" placeholder="Ej. Pepito Juarez" required>
+                </div>
+
+                <div class="mb-3">
+                    <label for="inputTelefono" class="form-label fw-bold text-white">Teléfono / WhatsApp</label>
+                    <input type="tel" class="form-control bg-white text-dark" id="inputTelefono" placeholder="Ej. 77200000" required>
+                </div>
+
+                <div class="row">
+                    <div class="col-6 mb-3">
+                        <label for="inputFecha" class="form-label fw-bold text-white">Fecha</label>
+                        <input type="date" class="form-control bg-white text-dark" id="inputFecha" required>
+                    </div>
+                    <div class="col-6 mb-3">
+                        <label for="inputHora" class="form-label fw-bold text-white">Hora</label>
+                        <input type="time" class="form-control bg-white text-dark" id="inputHora" required>
+                    </div>
+                </div>
+                
+                <button type="submit" class="btn fw-bold w-100 py-2 mt-3 text-success" style="background-color: #f39c12; border: none;">Confirmar Reserva</button>
+                <a href="reservas.html" class="btn btn-outline-light w-100 mt-2">Volver al Mapa</a>
+            </form>
+        </div>
+    </div>
+
+</body>
+</html>
